@@ -1,0 +1,64 @@
+<!--Main wrapper-->
+<link rel ="stylesheet"
+type = "text/css"
+href="4th.css"/>
+<script src="4th.js"></script>
+<div class="wrapper">
+    <h1>Registration form</h1>
+
+    <!--form container-->
+    <div class="form-container">
+    <form action="connect.php"method="post">
+        <!--flexbox and it's items-->
+        <div class="flex">
+            <div class="flex-item">
+            <!--full name field-->
+                <div class="field-container">
+                    <label for="Patient id">Patient id: <span class="required">*</span></label>
+                    <input type="number" name="patient_id"   pattern="[0-9]{10}" placeholder="patient id" required="required" />
+                    <span class="error-messg"></span>
+                </div>
+
+             <!--email field-->
+                <div class="field-container">
+                    <label for="Reported_on">Reported on <span class="required">*</span></label>
+                    <input type="string " name="Reported_on" placeholder="Reported date" required="required" />
+                    <span class="error-messg"></span>
+                </div>
+
+             <!--confirm email field-->
+                <div class="field-container">
+                    <label for="age estimate">Age estimate <span class="required">*</span></label>
+                    <input type="Age estimate" name="Age_estimate" id="Age estimate" placeholder="Age estimate" required="required" />
+                    <span class="error-messg"></span>
+                </div>
+
+            </div>
+            <div class="flex-item">
+                <!--contact no field-->
+                <div class="field-container">
+                    <label for="gender">Gender: <span class="required">*</span></label>
+                    <input type="text" name="Gender" pattern="^([a-zA-Z]{2,} ?)+$" id="Gender" placeholder="Gender" required="required" />
+                    <span class="error-messg"></span>
+                </div>
+
+                <!--state-->
+                <div class="field-container">
+                    <label for="State">State: <span class="required">*</span></label>
+                    <input type="State" name="State" id="State" placeholder="Your State" required="required" />
+                    <span class="error-messg"></span>
+                </div>
+
+                <!--status-->
+              <div class="field-container">
+                    <label for="Status">Status: <span class="required">*</span></label>
+                    <input type="Status" name="Status" id="Status" placeholder="Your Status" required="required" />
+                    <span class="error-messg"></span>
+                </div>
+
+        <!--Submit button-->
+        <div class="center"><input type="submit" name="Submit" value="Submit"></div>
+    </form>
+    </div>
+
+</div>
