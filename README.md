@@ -1,1 +1,2 @@
-# VIT
+#COVID-19 HEALTH SERVICES
+In this current pandemic situation, many of the people are having many doubts regarding the virus and the precautions to be taken during these situations. Many of the people are facing such difficulties due to the lack of knowledge about the current situation. This webpage provides you the basic information and precautions that are needed to be taken so that it helps people very much. Along with this information, we are also going to provide daily updates such as the total number of people deceased due to the corona and also a graphical representation of the deceased people. This website provides standard information and guidelines provided by the government.
